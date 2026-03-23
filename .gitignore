@@ -1,8 +1,15 @@
+### Maven / Build
 target/
-*.class
+
+### Eclipse / STS
+.settings/
 .classpath
 .project
-.settings/
 
+### OS
+.DS_Store
+Thumbs.db
+
+### Spring sensitive config
 src/main/resources/application.properties
 src/main/resources/application-*.properties
